@@ -1,6 +1,3 @@
 {
-    "java.project.sourcePaths": [
-        "session01",
-        "cobainprint"
-    ]
+  "java.project.sourcePaths": ["session01", "cobainprint", "session02"]
 }

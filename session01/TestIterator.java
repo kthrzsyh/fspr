@@ -8,10 +8,20 @@ public class TestIterator {
         collection.add("Dallas");
         collection.add("Madison");
 
-        Iterator<String> iterator = collection.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next().toUpperCase() + " ");
+        // Iterator<String> iterator = collection.iterator();
+        // while (iterator.hasNext()) {
+        // System.out.println(iterator.next().toUpperCase() + " ");
+        // }
+
+        // ingin memodifikasi element => iterator
+        // ada banyak nested nya => for each
+        // secara perform sama (iterator & for each)
+
+        // iterator => for each
+        for (String collect : collection) {
+            System.out.println(collect.toUpperCase() + " ");
         }
+
         System.out.println();
     }
 }
