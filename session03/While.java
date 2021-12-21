@@ -1,0 +1,12 @@
+package session03;
+
+public class While {
+    public static void main(String[] args) {
+        int i = 0;
+        System.out.println("Hasil Output :");
+        while (i <= 10) {
+            System.out.println("Perulangan ke-" + i);
+            i++;
+        }
+    }
+}
