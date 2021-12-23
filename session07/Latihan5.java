@@ -61,11 +61,10 @@ public class Latihan5 {
             sub_total[i] = ((qty[i] * harga[i]) - (qty[i] * harga[i] * diskon[i]));
             total_bayar += sub_total[i];
             System.out.println(i + 1 + "    " + nama[i] + "     " + harga[i] + "            " + qty[i] + "  "
-                    + (int) (diskon[i] * 100) + "    " + sub_total[i]);
+                    + (int) (diskon[i] * 100) + "%" + "    " + sub_total[i]);
             System.out.println(" ");
             System.out.println("Total Bayar : " + total_bayar);
         }
-
         scan.close();
     }
 }
