@@ -22,4 +22,9 @@ public class MyOwnThread {
         threadB.start();
     }
 
+    @Override
+    public String toString() {
+        return "MyOwnThread []";
+    }
+
 }
